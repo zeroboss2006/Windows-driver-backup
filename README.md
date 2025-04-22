@@ -90,6 +90,9 @@ pnputil /add-driver C:\DriversBackup\*.inf /subdirs /install
 ### 📆 備份步驟：
 
 1. 開啟「Print Management」
+```
+printmanagement.msc
+```
 2. 展開 `Print Servers > 本機名稱`
 3. 右鍵「Printers」 > 選擇「Export Printers to a file」
 4. 儲存 `.printerExport` 檔案
